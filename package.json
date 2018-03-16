@@ -1,8 +1,8 @@
 {
-  "name": "webkit-sassui-filedset-divider",
-  "version": "0.0.0",
+  "name": "webkit-sassui-fieldset-divider",
+  "version": "0.0.1",
   "description": "Divider implement by field set and legend tag",
-  "homepage": "https://github.com/afeiship/webkit-sassui-filedset-divider",
+  "homepage": "https://github.com/afeiship/webkit-sassui-fieldset-divider",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -10,7 +10,7 @@
   "scripts": {
     "build":"gulp"
   },
-  "main":"dist/webkit-sassui-filedset-divider.scss",
+  "main":"dist/webkit-sassui-fieldset-divider.scss",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",

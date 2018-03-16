@@ -1,23 +1,23 @@
-/*webkit-sassui-filedset-divider Start*/
-.webkit-sassui-filedset-divider {
+/*webkit-sassui-fieldset-divider Start*/
+.webkit-sassui-fieldset-divider {
   padding: 0;
   border: none;
   border-top: 1px solid;
 }
 
-.webkit-sassui-filedset-divider[data-align=left] {
+.webkit-sassui-fieldset-divider[data-align=left] {
   text-align: left;
 }
 
-.webkit-sassui-filedset-divider[data-align=center] {
+.webkit-sassui-fieldset-divider[data-align=center] {
   text-align: center;
 }
 
-.webkit-sassui-filedset-divider[data-align=right] {
+.webkit-sassui-fieldset-divider[data-align=right] {
   text-align: right;
 }
 
-/*webkit-sassui-filedset-divider End*/
+/*webkit-sassui-fieldset-divider End*/
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +25,7 @@
   -webkit-margin-after: 0;
 }
 
-.test-webkit-sassui-filedset-divider {
+.test-webkit-sassui-fieldset-divider {
   width: 80%;
   margin: 20px auto;
   padding: 40px 20px;
@@ -34,19 +34,19 @@
   border-radius: 14px;
 }
 
-.test-webkit-sassui-filedset-divider center {
+.test-webkit-sassui-fieldset-divider center {
   margin: 20px auto;
 }
 
-.test-webkit-sassui-filedset-divider center legend {
+.test-webkit-sassui-fieldset-divider center legend {
   color: #333;
   padding: 0 10px;
 }
 
-.test-webkit-sassui-filedset-divider .pl, .test-webkit-sassui-filedset-divider .px {
+.test-webkit-sassui-fieldset-divider .pl, .test-webkit-sassui-fieldset-divider .px {
   padding-left: 10px;
 }
 
-.test-webkit-sassui-filedset-divider .pr, .test-webkit-sassui-filedset-divider .px {
+.test-webkit-sassui-fieldset-divider .pr, .test-webkit-sassui-fieldset-divider .px {
   padding-right: 10px;
 }
