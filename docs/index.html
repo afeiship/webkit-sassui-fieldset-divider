@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>webkit-sassui-filedset-divider</title>
+  <link rel="stylesheet" href="./test.css">
+</head>
+
+<body>
+  <div class="test-webkit-sassui-filedset-divider">
+    <h3>align: left | center | right </h3>
+    <center style="color:dodgerblue">
+      <fieldset class="px webkit-sassui-filedset-divider">
+        <legend>我是分隔线:Default</legend>
+      </fieldset>
+    </center>
+    <center style="color:salmon">
+      <fieldset class="pl webkit-sassui-filedset-divider" data-align=left>
+        <legend>我是一条帅气的分隔线: left </legend>
+      </fieldset>
+    </center>
+
+    <center style="color:seagreen">
+      <fieldset class="px webkit-sassui-filedset-divider" data-align=center>
+        <legend>我是一条普通的分隔线: center </legend>
+      </fieldset>
+    </center>
+
+    <center style="color:royalblue">
+      <fieldset class="pr webkit-sassui-filedset-divider" data-align=right>
+        <legend>我是一条帅气的分隔线: right</legend>
+      </fieldset>
+    </center>
+  </div>
+</body>
+
+</html>

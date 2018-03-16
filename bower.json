@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-filedset-divider",
+  "description": "Divider implement by field set and legend tag",
+  "main": [
+    "dist/webkit-sassui-filedset-divider.css",
+    "dist/webkit-sassui-filedset-divider.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "filedset-divider"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

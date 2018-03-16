@@ -1,0 +1,52 @@
+/*webkit-sassui-filedset-divider Start*/
+.webkit-sassui-filedset-divider {
+  padding: 0;
+  border: none;
+  border-top: 1px solid;
+}
+
+.webkit-sassui-filedset-divider[data-align=left] {
+  text-align: left;
+}
+
+.webkit-sassui-filedset-divider[data-align=center] {
+  text-align: center;
+}
+
+.webkit-sassui-filedset-divider[data-align=right] {
+  text-align: right;
+}
+
+/*webkit-sassui-filedset-divider End*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.test-webkit-sassui-filedset-divider {
+  width: 80%;
+  margin: 20px auto;
+  padding: 40px 20px;
+  border: 1px dashed dodgerblue;
+  background: #fefefe;
+  border-radius: 14px;
+}
+
+.test-webkit-sassui-filedset-divider center {
+  margin: 20px auto;
+}
+
+.test-webkit-sassui-filedset-divider center legend {
+  color: #333;
+  padding: 0 10px;
+}
+
+.test-webkit-sassui-filedset-divider .pl, .test-webkit-sassui-filedset-divider .px {
+  padding-left: 10px;
+}
+
+.test-webkit-sassui-filedset-divider .pr, .test-webkit-sassui-filedset-divider .px {
+  padding-right: 10px;
+}
