@@ -1,0 +1,11 @@
+$wsui-fieldset-divider-align-map: (left, center, right);
+.wsui-fieldset-divider {
+  padding: 0;
+  border: none;
+  border-top: 1px solid;
+  @each $value in $wsui-fieldset-divider-align-map {
+    &[data-align="#{$value}"] {
+      text-align: $value;
+    }
+  }
+}

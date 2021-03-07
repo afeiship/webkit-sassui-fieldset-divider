@@ -1,0 +1,52 @@
+.wsui-fieldset-divider {
+  padding: 0;
+  border: none;
+  border-top: 1px solid;
+}
+
+.wsui-fieldset-divider[data-align="left"] {
+  text-align: left;
+}
+
+.wsui-fieldset-divider[data-align="center"] {
+  text-align: center;
+}
+
+.wsui-fieldset-divider[data-align="right"] {
+  text-align: right;
+}
+
+.test-wsui-fieldset-divider {
+  border: 1px solid red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.test-wsui-fieldset-divider {
+  width: 80%;
+  margin: 20px auto;
+  padding: 40px 20px;
+  border: 1px dashed dodgerblue;
+  background: #fefefe;
+  border-radius: 14px;
+}
+
+.test-wsui-fieldset-divider center {
+  margin: 20px auto;
+}
+
+.test-wsui-fieldset-divider center legend {
+  color: #333;
+  padding: 0 10px;
+}
+
+.test-wsui-fieldset-divider .pl, .test-wsui-fieldset-divider .px {
+  padding-left: 10px;
+}
+
+.test-wsui-fieldset-divider .pr, .test-wsui-fieldset-divider .px {
+  padding-right: 10px;
+}

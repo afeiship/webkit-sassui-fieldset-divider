@@ -1,0 +1,18 @@
+/*!
+ * name: @jswork/wsui-fieldset-divider
+ * description: Divider implement by field set and legend tag.
+ * homepage: https://github.com/afeiship/wsui-fieldset-divider
+ * version: 1.0.0
+ * date: 2021-03-07 21:16:28
+ * license: MIT
+ */
+.wsui-fieldset-divider {
+  padding: 0;
+  border: none;
+  border-top: 1px solid; }
+  .wsui-fieldset-divider[data-align="left"] {
+    text-align: left; }
+  .wsui-fieldset-divider[data-align="center"] {
+    text-align: center; }
+  .wsui-fieldset-divider[data-align="right"] {
+    text-align: right; }

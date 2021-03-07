@@ -1,0 +1,39 @@
+@import "../src/index.scss";
+
+.test-wsui-fieldset-divider {
+  border: 1px solid red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.test-wsui-fieldset-divider {
+  width: 80%;
+  margin: 20px auto;
+  padding: 40px 20px;
+  border: 1px dashed dodgerblue;
+  background: #fefefe;
+  border-radius: 14px;
+
+  center {
+    margin: 20px auto;
+    legend {
+      color: #333;
+      padding: 0 10px;
+    }
+  }
+
+  .pl {
+    padding-left: 10px;
+  }
+
+  .pr {
+    padding-right: 10px;
+  }
+
+  .px {
+    @extend .pl, .pr;
+  }
+}
